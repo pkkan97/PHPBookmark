@@ -33,7 +33,7 @@ $new_password = substr( str_shuffle(sha1(rand() . time()) . $chars ), 0, 8 );
 		   $row = $emk->fetch_object();
       $email = $row->email;
 		   $subject="PHPBookmark Login Information";
-		   $message="Your password has been set.The password is"."<p>".$new_password;
+		   $message="Your password has been set.The password is".$new_password;
 		   $from="From: phpboookmarkco@gmail.com";
 		   mail($email,$subject,$message,$from);
 		   echo "your password has been set";
