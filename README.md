@@ -25,7 +25,7 @@ To run the project download the following:
 
 6.Your database will be created,then click on import button and select bookmarks.sql file.All the tables of the database will be uploaded.
 
-7.Open new tab and write localhost/your_copied_folder's_destination_path/register_form.php
+7.Open new tab and write localhost/your_copied_folder's_destination_name/register_form.php
 
 
 
